@@ -53,3 +53,9 @@ label {
 	box-sizing: border-box;
 	display: block;
 }
+
+div#firstDiv, div#lastDiv, div#emailDiv, div#phoneDiv, div#interestDiv {
+	box-sizing: border-box;
+	width: 80%;
+	margin: 1em auto 0 auto;
+}
