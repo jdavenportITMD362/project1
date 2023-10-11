@@ -1,4 +1,4 @@
-/* Color Palette: http://paletton.com/#uid=54v0g0kltsa9lpadAsGsxvlHbzm */
+/* Color Palette: http://paletton.com/#uid=50y0l0klgi8c-qEhamEp8nZsTtN */
 
 h1, p, label, textarea, button, input {
 	font-family: 'Lato', Arial, sans-serif;
@@ -37,6 +37,20 @@ label {
 
 input#submit {
 	font-size: 1.44em;
+}
+
+/* Website Palette */
+body {
+	background-color: #905F31;
+}
+
+p {
+	background-color: #906E31;
+}
+
+input {
+	background-color: #904931;
+	border-width: 0;
 }
 
 /* Mobile Layout */
