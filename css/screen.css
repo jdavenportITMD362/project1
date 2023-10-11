@@ -43,6 +43,10 @@ input#submit {
 	font-size: 1.44em;
 }
 
+p#check {
+	font-size: 1.2em;
+}
+
 /* Website Palette */
 body {
 	background-color: #905F31;
@@ -54,6 +58,14 @@ p {
 
 input {
 	background-color: #904931;
+}
+
+div#checkboxAlt {
+	background-color: #904931;
+}
+
+p#check {
+	background-color: transparent;
 }
 
 /* Mobile Layout */
@@ -95,6 +107,33 @@ div#checkDiv {
 
 #checkDiv label {
 	display: inline-block;
+}
+
+.nojs div#checkboxAlt {
+	display: inline-block;
+	width: 0;
+	height: 0;
+}
+
+.nojs input#interested {
+	width: .75em;
+	height: .75em;
+}
+
+.hasjs div#checkboxAlt {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+}
+
+.hasjs input#interested {
+	position:absolute;
+	right: 6000px;
+}
+
+p#check {
+	padding: 0;
+	margin: 0;
 }
 
 input {
