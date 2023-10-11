@@ -9,6 +9,20 @@
 </head>
 <body>
   <main>
+    <form method="POST" action="#null">
+      <h1>Subscribe to Good Music Weekly!</h1>
+      <p>
+        Here at Good Music Weekly<span class="superScript">&#169;</span> we believe in delivering <em>objectively</em> good music. Subscribe to our list now and receive our the top 10 best songs of the week, every week!
+      </p>
+      <div id="emailDiv">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" pattern="^.+@.+$">
+      </div>
+      <div id="phoneDiv">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" pattern="[0-9]{3}-[0-9](3)-[0-9]{4}">
+      </div>
+    </form>
   </main>
 </body>
 </html>
