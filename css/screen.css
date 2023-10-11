@@ -8,8 +8,6 @@ h1, p, label, textarea, button, input {
 h1 {
 	font-size: 2.074em;
 	font-weight: bold;
-	box-sizing: border-box;
-	text-align: center;
 }
 
 p {
@@ -35,4 +33,23 @@ label {
 
 #interestDiv label {
 	font-size: 1.2em;
+}
+
+/* Mobile Layout */
+h1 {
+	box-sizing: border-box;
+	text-align: center;
+	margin: .75em;
+}
+
+p {
+	box-sizing: border-box;
+	width: 85%;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+label {
+	box-sizing: border-box;
+	display: block;
 }
