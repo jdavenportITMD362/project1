@@ -147,7 +147,7 @@ input#submit {
 	box-sizing: border-box;
 	display: block;
 	padding: .2em;
-	margin: 1em auto 0 auto;
+	margin: 1em auto 1em auto;
 	border-radius: 10px;
 	padding: 6px;
 	width: fit-content;
@@ -216,5 +216,69 @@ input#submit {
 
 	p#check {
 		font-size: 1.44em;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	form {
+		width: 90%;
+		margin: auto;
+	}
+
+	p {
+		padding: .8em;
+	}
+
+	div#firstDiv, div#lastDiv {
+		float: left;
+		width: 47.5%;
+	}
+
+	div#firstDiv {
+		margin-right: 5%; 
+	}
+
+	.hasjs div#checkboxAlt {
+		display: inline-block;
+		width: 1.5em;
+		height: 1.5em;
+	}
+
+	input#submit {
+		padding: .3em;
+	}
+
+	/* Minor Third Typographic Font - Another Step Up*/
+	h1 {
+		font-size: 2.986em;
+		font-weight: bold;
+	}
+
+	p {
+		font-size: 2.488em;
+	}
+
+	label {
+		font-size: 2.074em;
+	}
+
+	#interestDiv p {
+		font-size: 1.728em;
+	}
+
+	#interestDiv label {
+		font-size: 1.728em;
+	}
+
+	input {
+		font-size: 2.074em;
+	}
+
+	input#submit {
+		font-size: 2.074em;
+	}
+
+	p#check {
+		font-size: 1.728em;
 	}
 }
