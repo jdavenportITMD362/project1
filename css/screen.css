@@ -13,7 +13,7 @@ h1 {
 }
 
 p {
-	font-size: 1.44em;
+	font-size: 1.728em;
 }
 
 em {
@@ -23,4 +23,16 @@ em {
 span.superScript {
 	vertical-align: super;
 	font-size: smaller;
+}
+
+label {
+	font-size: 1.44em;
+}
+
+#interestDiv p {
+	font-size: 1.2em;
+}
+
+#interestDiv label {
+	font-size: 1.2em;
 }
