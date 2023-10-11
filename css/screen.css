@@ -35,6 +35,10 @@ label {
 	font-size: 1.2em;
 }
 
+input#submit {
+	font-size: 1.44em;
+}
+
 /* Mobile Layout */
 h1 {
 	box-sizing: border-box;
@@ -74,3 +78,9 @@ div#checkDiv {
 	display: inline-block;
 }
 
+input#submit {
+	box-sizing: border-box;
+	display: block;
+	padding: .2em;
+	margin: 1em auto 0 auto;
+}
