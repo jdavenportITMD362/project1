@@ -1,285 +1,285 @@
 /* Color Palette: http://paletton.com/#uid=50y0l0klgi8c-qEhamEp8nZsTtN */
 
 h1, p, label, textarea, button, input {
-	font-family: 'Lato', Arial, sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
 }
 
 /* Minor Third Typographic Font */
 h1 {
-	font-size: 2.074em;
-	font-weight: bold;
+  font-size: 2.074em;
+  font-weight: bold;
 }
 
 p {
-	font-size: 1.728em;
+  font-size: 1.728em;
 }
 
 em {
-	font-style: italic;
+  font-style: italic;
 }
 
 span.superScript {
-	vertical-align: super;
-	font-size: smaller;
+  vertical-align: super;
+  font-size: smaller;
 }
 
 label {
-	font-size: 1.44em;
+  font-size: 1.44em;
 }
 
 #interestDiv p {
-	font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 #interestDiv label {
-	font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 input {
-	font-size: 1.44em;
+  font-size: 1.44em;
 }
 
 input#submit {
-	font-size: 1.44em;
+  font-size: 1.44em;
 }
 
 p#check {
-	font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 /* Website Palette */
 body {
-	background-color: #905F31;
+  background-color: #905F31;
 }
 
 p {
-	background-color: #906E31;
+  background-color: #906E31;
 }
 
 input {
-	background-color: #904931;
+  background-color: #904931;
 }
 
 div#checkboxAlt {
-	background-color: #904931;
+  background-color: #904931;
 }
 
 p#check {
-	background-color: transparent;
+  background-color: transparent;
 }
 
 /* Mobile Layout */
 h1 {
-	box-sizing: border-box;
-	text-align: center;
-	margin: .75em;
+  box-sizing: border-box;
+  text-align: center;
+  margin: .75em;
 }
 
 p {
-	box-sizing: border-box;
-	width: 85%;
-	margin: 0 auto 0 auto;
-	text-align: center;
-	border-radius: 12px;
-	padding: .5em;
+  box-sizing: border-box;
+  width: 85%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  border-radius: 12px;
+  padding: .5em;
 }
 
 label {
-	box-sizing: border-box;
-	display: block;
+  box-sizing: border-box;
+  display: block;
 }
 
 div#firstDiv, div#lastDiv, div#emailDiv, div#phoneDiv, div#interestDiv {
-	box-sizing: border-box;
-	width: 80%;
-	margin: 1em auto 0 auto;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 1em auto 0 auto;
 }
 
 #interestDiv p {
-	width: 100%;
+  width: 100%;
 }
 
 div#checkDiv {
-	box-sizing: border-box;
-	width: fit-content;
-	margin: 1em auto 0 auto;
+  box-sizing: border-box;
+  width: fit-content;
+  margin: 1em auto 0 auto;
 }
 
 #checkDiv label {
-	display: inline-block;
+  display: inline-block;
 }
 
 .nojs div#checkboxAlt {
-	display: inline-block;
-	width: 0;
-	height: 0;
+  display: inline-block;
+  width: 0;
+  height: 0;
 }
 
 .nojs input#interested {
-	width: .75em;
-	height: .75em;
+  width: .75em;
+  height: .75em;
 }
 
 .hasjs div#checkboxAlt {
-	display: inline-block;
-	border-radius: 6px;
-	width: 1em;
-	height: 1em;
+  display: inline-block;
+  border-radius: 6px;
+  width: 1em;
+  height: 1em;
 }
 
 .hasjs input#interested {
-	position:absolute;
-	right: 6000px;
+  position:absolute;
+  right: 6000px;
 }
 
 p#check {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 input {
-	border-width: 0;
-	border-radius: 8px;
-	margin: .3em 0 0 0;
-	width: 100%;
+  border-width: 0;
+  border-radius: 8px;
+  margin: .3em 0 0 0;
+  width: 100%;
 }
 
 input#submit {
-	box-sizing: border-box;
-	display: block;
-	padding: .2em;
-	margin: 1em auto 1em auto;
-	border-radius: 10px;
-	padding: 6px;
-	width: fit-content;
+  box-sizing: border-box;
+  display: block;
+  padding: .2em;
+  margin: 1em auto 1em auto;
+  border-radius: 10px;
+  padding: 6px;
+  width: fit-content;
 }
 
 @media only screen and (min-width: 600px) {
-	/* Tablet Layout */
-	div#nameDiv {
-		width: 80%;
-		margin: 0 auto 0 auto;
-	}
+  /* Tablet Layout */
+  div#nameDiv {
+    width: 80%;
+    margin: 0 auto 0 auto;
+  }
 
-	div#firstDiv, div#lastDiv {
-		float: left;
-		width: 45%;
-	}
+  div#firstDiv, div#lastDiv {
+    float: left;
+    width: 45%;
+  }
 
-	div#firstDiv {
-		margin-right: 10%;
-		margin-bottom: 1em;
-	}
+  div#firstDiv {
+    margin-right: 10%;
+    margin-bottom: 1em;
+  }
 
-	div#emailDiv {
-		clear: left;
-	}
+  div#emailDiv {
+    clear: left;
+  }
 
-	input#firstName, input#lastName, input#email, input#phone {
-		height: 1.75em;
-	}
+  input#firstName, input#lastName, input#email, input#phone {
+    height: 1.75em;
+  }
 
-	.hasjs div#checkboxAlt {
-		display: inline-block;
-		width: 1.25em;
-		height: 1.25em;
-	}
+  .hasjs div#checkboxAlt {
+    display: inline-block;
+    width: 1.25em;
+    height: 1.25em;
+  }
 
-	/* Minor Third Typographic Font - One Step Up*/
-	h1 {
-		font-size: 2.488em;
-		font-weight: bold;
-	}
+  /* Minor Third Typographic Font - One Step Up*/
+  h1 {
+    font-size: 2.488em;
+    font-weight: bold;
+  }
 
-	p {
-		font-size: 2.074em;
-	}
+  p {
+    font-size: 2.074em;
+  }
 
-	label {
-		font-size: 1.728em;
-	}
+  label {
+    font-size: 1.728em;
+  }
 
-	#interestDiv p {
-		font-size: 1.44em;
-	}
+  #interestDiv p {
+    font-size: 1.44em;
+  }
 
-	#interestDiv label {
-		font-size: 1.44em;
-	}
+  #interestDiv label {
+    font-size: 1.44em;
+  }
 
-	input {
-		font-size: 1.728em;
-	}
+  input {
+    font-size: 1.728em;
+  }
 
-	input#submit {
-		font-size: 1.728em;
-	}
+  input#submit {
+    font-size: 1.728em;
+  }
 
-	p#check {
-		font-size: 1.44em;
-	}
+  p#check {
+    font-size: 1.44em;
+  }
 }
 
 @media only screen and (min-width: 992px) {
-	form {
-		width: 90%;
-		margin: auto;
-	}
+  form {
+    width: 90%;
+    margin: auto;
+  }
 
-	p {
-		padding: .8em;
-	}
+  p {
+    padding: .8em;
+  }
 
-	div#firstDiv, div#lastDiv {
-		float: left;
-		width: 47.5%;
-	}
+  div#firstDiv, div#lastDiv {
+    float: left;
+    width: 47.5%;
+  }
 
-	div#firstDiv {
-		margin-right: 5%; 
-	}
+  div#firstDiv {
+    margin-right: 5%; 
+  }
 
-	.hasjs div#checkboxAlt {
-		display: inline-block;
-		width: 1.5em;
-		height: 1.5em;
-	}
+  .hasjs div#checkboxAlt {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+  }
 
-	input#submit {
-		padding: .3em;
-	}
+  input#submit {
+    padding: .3em;
+  }
 
-	/* Minor Third Typographic Font - Another Step Up*/
-	h1 {
-		font-size: 2.986em;
-		font-weight: bold;
-	}
+  /* Minor Third Typographic Font - Another Step Up*/
+  h1 {
+    font-size: 2.986em;
+    font-weight: bold;
+  }
 
-	p {
-		font-size: 2.488em;
-	}
+  p {
+    font-size: 2.488em;
+  }
 
-	label {
-		font-size: 2.074em;
-	}
+  label {
+    font-size: 2.074em;
+  }
 
-	#interestDiv p {
-		font-size: 1.728em;
-	}
+  #interestDiv p {
+    font-size: 1.728em;
+  }
 
-	#interestDiv label {
-		font-size: 1.728em;
-	}
+  #interestDiv label {
+    font-size: 1.728em;
+  }
 
-	input {
-		font-size: 2.074em;
-	}
+  input {
+    font-size: 2.074em;
+  }
 
-	input#submit {
-		font-size: 2.074em;
-	}
+  input#submit {
+    font-size: 2.074em;
+  }
 
-	p#check {
-		font-size: 1.728em;
-	}
+  p#check {
+    font-size: 1.728em;
+  }
 }
